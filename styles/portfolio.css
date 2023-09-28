@@ -41,6 +41,10 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-family: var(--heading-font-family);
+}
+
 p {
   color: var(--branding-color);
   font-family: var(--default-font-family);
@@ -81,6 +85,20 @@ nav a:hover {
   color: white;
   display: block;
   margin: 0 auto;
+}
+
+footer .btn-branding {
+  background: var(--branding-background-color);
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+}
+
+footer .contact-box {
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  padding: 20px 10px;
 }
 
 @media (max-width: 900px) {
