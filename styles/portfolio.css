@@ -46,6 +46,15 @@ p {
   font-family: var(--default-font-family);
 }
 
+nav a {
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover {
+  color: var(--branding-color);
+  text-decoration: underline;
+}
+
 .container h2 {
   font-family: var(--heading-font-family);
 }
