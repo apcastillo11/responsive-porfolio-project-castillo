@@ -6,8 +6,50 @@
     rgb(151, 150, 240) 12.1%,
     rgb(255, 206, 236) 63.2%
   );
+  --branding-color: #a366ff;
+}
+
+i {
+  font-size: 24px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav li {
+  color: black;
+  display: inline-block;
+  font-family: var(--default-font-family);
+  margin-left: 10px;
 }
 
 h1 {
   font-family: var(--heading-font-family);
+}
+
+h2 {
+  font-family: var(--default-font-family);
+}
+
+p {
+  font-family: var(--default-font-family);
+}
+
+.active {
+  color: var(--branding-color);
+}
+
+.hero {
+  background: var(--heading-background-color);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  nav li {
+    font-size: 14px;
+    margin-left: 5px;
+  }
 }
