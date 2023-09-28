@@ -1,4 +1,13 @@
 :root {
   --heading-font-family: "Frank Ruhl Libre", serif;
   --default-font-family: "Mooli", sans-serif;
+  --heading-background-color: linear-gradient(
+    106.7deg,
+    rgb(151, 150, 240) 12.1%,
+    rgb(255, 206, 236) 63.2%
+  );
+}
+
+h1 {
+  font-family: var(--heading-font-family);
 }
