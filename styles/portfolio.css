@@ -32,6 +32,12 @@ nav li {
   margin-left: 10px;
 }
 
+a:hover i {
+  background: var(--branding-background-color);
+  border: 1px solid white;
+  color: white;
+}
+
 h1,
 h3 {
   font-family: var(--heading-font-family);
@@ -62,9 +68,10 @@ h2 {
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   color: var(--branding-color);
+  transition: all 150ms ease-in;
 }
 
-.btn-branding-outline a:hover {
+.btn-branding-outline:hover {
   border: 1px solid white;
 }
 
