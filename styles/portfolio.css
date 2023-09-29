@@ -49,6 +49,10 @@ h2 {
   text-align: center;
 }
 
+.navbar-background {
+  background: var(--branding-background-color);
+}
+
 .container h2 {
   font-family: var(--heading-font-family);
 }
