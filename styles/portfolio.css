@@ -42,6 +42,11 @@ a:hover i {
   color: white;
 }
 
+nav li:hover,
+.active {
+  color: var(--branding-color);
+}
+
 h1,
 h3 {
   font-family: var(--heading-font-family);
@@ -69,10 +74,6 @@ h2 {
 
 .container h2 {
   font-family: var(--heading-font-family);
-}
-
-.active {
-  color: var(--branding-color);
 }
 
 .hero {
@@ -223,7 +224,7 @@ footer p a {
 
   nav li {
     font-size: 14px;
-    margin-left: 5px;
+    margin-left: 4px;
   }
 
   .hero p {
@@ -231,6 +232,10 @@ footer p a {
   }
 
   .main-container {
+    margin-bottom: 50px;
+  }
+
+  .aly-photo {
     margin-bottom: 50px;
   }
 
