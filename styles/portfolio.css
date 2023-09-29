@@ -190,4 +190,9 @@ footer p a {
   .content {
     border: none;
   }
+
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
