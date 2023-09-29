@@ -87,11 +87,11 @@ h2 {
   font-size: 18px;
 }
 
-.content-about-photo {
+.content-border-left {
   border-left: 2px solid var(--branding-color);
 }
 
-.content-about {
+.content-border-right {
   border-right: 2px solid var(--branding-color);
 }
 
