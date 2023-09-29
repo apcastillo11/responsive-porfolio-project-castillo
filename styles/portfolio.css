@@ -16,6 +16,10 @@ i {
   padding: 8px;
 }
 
+i.alt-nav {
+  background-color: white;
+}
+
 nav {
   padding: 15px 0;
 }
@@ -44,13 +48,23 @@ h3 {
   text-align: center;
 }
 
+h1 {
+  font-size: 72px;
+  line-height: 1.5;
+}
+
 h2 {
   font-family: var(--default-font-family);
+  font-size: 54px;
+  line-height: 1.5;
   text-align: center;
 }
 
-.navbar-background {
+.background {
   background: var(--branding-background-color);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .container h2 {
@@ -68,16 +82,29 @@ h2 {
   text-align: center;
 }
 
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
 .btn-branding-outline {
   background: white;
-  border: 1px solid var(--branding-color);
+  border: 2px solid var(--branding-color);
   border-radius: 4px;
   color: var(--branding-color);
+  font-family: var(--default-font-family);
+  opacity: 0.7;
+  padding: 15px 20px;
   transition: all 150ms ease-in;
 }
 
 .btn-branding-outline:hover {
-  border: 1px solid white;
+  border: 2px solid white;
+}
+
+.main-container {
+  margin-top: 100px;
 }
 
 .content {
@@ -86,17 +113,14 @@ h2 {
   padding: 30px;
 }
 
+.content h1 {
+  font-size: 60px;
+}
+
 .content h2 {
   font-family: var(--default-font-family);
-  font-size: 18px;
-}
-
-.content-border-left {
-  border-left: 2px solid var(--branding-color);
-}
-
-.content-border-right {
-  border-right: 2px solid var(--branding-color);
+  font-size: 28px;
+  padding-bottom: 10px;
 }
 
 .btn-branding {
@@ -109,6 +133,8 @@ h2 {
 p {
   color: var(--branding-color);
   font-family: var(--default-font-family);
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .about-info {
@@ -119,6 +145,15 @@ p {
 .about-info p {
   color: black;
   opacity: 0.8;
+}
+
+.contact-me p {
+  text-align: center;
+}
+
+.contact-me a {
+  color: var(--branding-color);
+  text-decoration: none;
 }
 
 footer .btn-branding {
@@ -177,10 +212,26 @@ footer p a {
   text-decoration: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 990px) {
+  h1 {
+    font-size: 42px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
   nav li {
     font-size: 14px;
     margin-left: 5px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+
+  .main-container {
+    margin-bottom: 50px;
   }
 
   .container h2 {
