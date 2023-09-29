@@ -81,6 +81,11 @@ h2 {
   padding: 30px;
 }
 
+.content h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+}
+
 .btn-branding {
   background: var(--branding-background-color);
   color: white;
@@ -91,6 +96,16 @@ h2 {
 p {
   color: var(--branding-color);
   font-family: var(--default-font-family);
+}
+
+.about-info {
+  background: var(--branding-background-color);
+  color: white;
+}
+
+.about-info p {
+  color: black;
+  opacity: 0.8;
 }
 
 footer .btn-branding {
