@@ -267,12 +267,7 @@ footer p a {
 
 @media (max-width: 768px) {
   nav li {
-    display: -ms-inline-flexbox;
-    font-size: 14px;
-    justify-content: center;
-  }
-
-  .mini-logo {
-    display: none;
+    font-size: 12px;
+    margin-left: 5px;
   }
 }
